@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --ds-dark-color: #1a1d20;
+    --ds-dark-primary: #1c1c1c;
+    --ds-main-color: #fff;
+    --ds-primary-color: #c6c6c6;
+    --ds-supporting-color: #29a9fd;
+    --secondary-color: #C850C0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Lexend Deca", sans-serif;
+    color: var(--ds-dark-primary);
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    line-height: 4rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+
+p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--ds-dark-color);
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button,
+a {
+    font-size: 1.15rem;
+    letter-spacing: 0.03rem;
+}
+
+.common-heading {
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem !important;
+}
+
+.common-title {
+    margin-bottom: 4.2rem;
+}
+
+/* nav style */
+.nav-link {
+    color: var(--ds-main-color) !important;
+}
+
+.nav-link:hover {
+    color: var(--secondary-color) !important;
+}
+
+/* hero section start */
+.hero-vedio--section {
+    max-width: 100%;
+    border-radius: 2rem;
+}
+
+.navbar-expand-lg {
+    width: 100%;
+}
+
+.hero-section {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    place-content: center;
+}
+
+.bg-main {
+    background-image: url('img/your-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+}
+
+.bg-color {
+    background-color: var(--ds-dark-primary);
+}
+
+.text-light-gray {
+    color: var(--ds-primary-color);
+}
+
+.custom-shape-divider-bottom-1752054828 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1752054828 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 130px;
+}
+
+.custom-shape-divider-bottom-1752054828 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* hero section end */
+
+/* services section start */
+.services-secttion {
+    padding: 6rem 0 3rem 0 !important;
+}
+
+.icon-span {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--ds-supporting-color);
+    color: var(--ds-main-color);
+}
+
+.card-box:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0 8px 24px;
+}
+
+.more-info-section {
+    background-image: linear-gradient(rgba(22, 22, 22, 0.7), rgba(22, 22, 22, 0.9)), url(https://t4.ftcdn.net/jpg/08/70/32/31/360_F_870323199_ajFBiDNHIlYPyy5Hdl0BOXuLFqLsirD6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow: hidden;
+}
+
+.more-info-section .image-section {
+    position: relative;
+}
+
+.more-info-section .image-section img {
+    width: 70%;
+}
+
+.carousel .card {
+    background-color: #262631;
+    color: var(--ds-main-color);
+    transition: all 0.3s linear;
+}
+
+.carousel-inner .card p {
+    color: var(--ds-main-color);
+    transition: color 0.3s linear;
+}
+
+.carousel-inner .card:hover {
+    background-color: var(--ds-main-color);
+    color: var(--ds-dark-color);
+}
+
+.carousel-inner .card:hover p {
+    color: var(--ds-dark-color);
+}
+
+.fa-star {
+    color: var(--secondary-color);
+}
+
+.carousel-indicators {
+    bottom: -15%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: var(--ds-supporting-color);
+}
+
+.text-gray {
+    color: var(--ds-primary-color);
+}
+
+/* services section end */
+
+/* contact / end section */
+.end-secation {
+    position: relative;
+}
+
+.custom-shape-divider-top-1752487219 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1752487219 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1752487219 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.end-secation .common-title {
+    padding-top: 6rem;
+}
+
+.end-secation .form-section {
+    width: 50%;
+}
+
+/* Contact form sits on a dark background — labels and helper text need to
+   stay readable instead of inheriting the default dark paragraph color. */
+.end-secation .form-label {
+    color: var(--ds-main-color);
+}
+
+.end-secation .form-control::placeholder {
+    color: var(--ds-primary-color);
+}
+
+@media (max-width: 991px) {
+    .end-secation .form-section {
+        width: 100%;
+    }
+}
+
+/* end section end */
